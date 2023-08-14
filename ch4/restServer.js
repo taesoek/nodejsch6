@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs').promises;
 const path = require('path');
 
-const users = {}; // 데이터 저장용!
+const users = {}; // 데이터 저장용!!
 
 http.createServer(async (req, res) => {
   try {
